@@ -4,9 +4,6 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-
-
-
 @import
   {% if site.bootwatch %}
     "bootswatch/{{site.bootwatch | downcase}}/variables",
@@ -20,9 +17,7 @@
 
   "syntax-highlighting",
   "typeahead",
-  "swagger",
-  "base",
-  "layout"
+  "swagger"
 ;
 
 html {

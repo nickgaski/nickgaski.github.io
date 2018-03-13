@@ -14,8 +14,15 @@
     }
 }
 
+// // Set some variables
+// base-font-size:   16px;
+// grey-color:       #828282;
+// grey-color-light: lighten($grey-color, 40%);
+// grey-color-dark:  darken($grey-color, 25%);
+// spacing-unit:     30px;
+
 .swagger-path {
-    font-size: $base-font-size * 1.2;
+    font-size: 20px;
     margin: 25px 0 10px 0;
     font-family: Courier New,Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono, monospace;
 }
@@ -28,7 +35,7 @@
 }
 
 .swagger-method-title {
-    font-size: $base-font-size;
+    font-size: 16px;
     margin: 0;
     cursor: pointer;
 }
@@ -79,7 +86,7 @@
 }
 
 .swagger-response {
-    font-size: $base-font-size;
+    font-size: 16px;
 
     h5 {
         margin: 10px 0 5px 0;
@@ -97,16 +104,16 @@
 .swagger-parameters-table {
     border-spacing: 0px;
     border-collapse: collapse;
-    margin-bottom: $spacing-unit;
+    margin-bottom: 30px;
     width: 100%;
 
     th, td {
-        border: 1px solid darken($grey-color-light, 5%);
+        border: 1px solid darken(#828282, 5%);
         padding: 4px 10px;
     }
 
     th {
-        background: lighten($grey-color-light, 6%);
+        background: lighten(#828282, 6%);
     }
 }
 
